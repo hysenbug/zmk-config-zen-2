@@ -39,7 +39,7 @@
         };
 
         combo-del {
-            bindings = <&kp DELETE>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <40 11>;
         };
 
