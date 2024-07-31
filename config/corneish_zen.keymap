@@ -39,7 +39,7 @@
         };
 
         combo-del {
-            bindings = <&kp BACKSPACE>;
+            bindings = <&kp BSPC>;
             key-positions = <40 11>;
         };
 
@@ -120,6 +120,15 @@
 &trans   &trans  &trans  &trans  &sys_reset  &bootloader    &bootloader  &trans  &trans  &trans  &trans    &kp F12
 &trans   &trans  &trans  &trans  &trans      &trans         &trans       &trans  &trans  &trans  &kp CAPS  &trans
                          &trans  &trans      &trans         &trans       &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
