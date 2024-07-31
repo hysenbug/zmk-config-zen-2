@@ -38,9 +38,10 @@
             require-prior-idle-ms = <100>;
         };
 
-        combo-del {
+        combo-bspc {
             bindings = <&kp BSPC>;
             key-positions = <40 11>;
+            layers = <0>;
         };
 
         combo-enter {
