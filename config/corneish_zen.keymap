@@ -58,6 +58,12 @@
             bindings = <&kp CAPS>;
             key-positions = <37 12>;
         };
+
+        combo-spec-2 {
+            bindings = <&kp BSPC>;
+            key-positions = <11 41>;
+            layers = <0>;
+        };
     };
 
     keymap {
